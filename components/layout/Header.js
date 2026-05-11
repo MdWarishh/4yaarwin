@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-const REGISTER_URL = 'https://4yaarwin.com/#/register?invitationCode=64747166955';
+const REGISTER_URL = 'https://4yaarwin.tech/#/register?invitationCode=64747166955';
 
 const navLinks = [
   { href: '/', label: 'Home' },

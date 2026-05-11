@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import CtaButton from '@/components/ui/CtaButton';
 
-const REGISTER_URL = 'https://4yaarwin.com/#/register?invitationCode=64747166955';
+const REGISTER_URL = 'https://4yaarwin.tech/#/register?invitationCode=64747166955';
 
 export const metadata = {
   title: '4YaarWin Official – Play & Win Online | Register & Login',
   description:
     'Welcome to 4YaarWin official platform. Register now and start winning. Fast login, secure gameplay, and massive rewards await you.',
-  alternates: { canonical: 'https://www.4yaarwin.com/' },
+  alternates: { canonical: 'https://www.4yaarwin.tech/' },
 };
 
 const benefits = [

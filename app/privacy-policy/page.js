@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 export const metadata = {
   title: '4YaarWin Privacy Policy – How We Protect Your Data',
   description: 'Read the 4YaarWin Privacy Policy to understand how we collect, use, and protect your personal information on our gaming platform.',
-  alternates: { canonical: 'https://www.4yaarwin.com/privacy-policy/' },
+  alternates: { canonical: 'https://www.4yaarwin.tech/privacy-policy/' },
 };
 
 const sections = [
@@ -73,7 +73,7 @@ export default function PrivacyPolicyPage() {
           <h2 className="font-display font-bold text-lg text-white mb-2">Contact About Privacy</h2>
           <p className="text-white/50 font-body text-sm">
             For any privacy-related questions or concerns, contact us at{' '}
-            <span className="text-brand-green">support@4yaarwin.com</span>
+            <span className="text-brand-green">support@4yaarwin.tech</span>
           </p>
         </div>
       </div>

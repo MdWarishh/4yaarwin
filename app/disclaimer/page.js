@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 export const metadata = {
   title: '4YaarWin Disclaimer – Important Notice for Players',
   description: 'Read the 4YaarWin Disclaimer. Important information about risk, responsible gaming, and the nature of online gaming on our platform.',
-  alternates: { canonical: 'https://www.4yaarwin.com/disclaimer/' },
+  alternates: { canonical: 'https://www.4yaarwin.tech/disclaimer/' },
 };
 
 export default function DisclaimerPage() {
@@ -77,7 +77,7 @@ export default function DisclaimerPage() {
           <h2 className="font-display font-bold text-lg text-white mb-2">Need Help?</h2>
           <p className="text-white/50 font-body text-sm">
             If you have concerns about your gaming habits, contact our responsible gaming team at{' '}
-            <span className="text-brand-green">support@4yaarwin.com</span>
+            <span className="text-brand-green">support@4yaarwin.tech</span>
           </p>
         </div>
       </div>

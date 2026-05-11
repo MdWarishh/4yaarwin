@@ -5,7 +5,7 @@ export const metadata = {
   title: 'About 4YaarWin – India\'s Trusted Online Gaming Platform',
   description:
     'Learn about 4YaarWin – who we are, our mission, values, and why we are India\'s most trusted online gaming platform with 5 lakh+ players.',
-  alternates: { canonical: 'https://www.4yaarwin.com/about/' },
+  alternates: { canonical: 'https://www.4yaarwin.tech/about/' },
 };
 
 const values = [

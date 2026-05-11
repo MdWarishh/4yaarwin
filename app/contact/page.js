@@ -37,7 +37,7 @@ export default function ContactPage() {
             <h2 className="font-display font-bold text-2xl text-white mb-6">Get in Touch</h2>
             <div className="space-y-4 mb-10">
               {[
-                { icon: '✉️', label: 'Email Support', value: 'support@4yaarwin.com' },
+                { icon: '✉️', label: 'Email Support', value: 'support@4yaarwin.tech' },
                 { icon: '💬', label: 'Live Chat', value: 'Available 24/7 on platform' },
                 { icon: '📞', label: 'Customer Care', value: 'Via platform only' },
                 { icon: '⏰', label: 'Response Time', value: 'Within 24 hours' },
@@ -59,7 +59,7 @@ export default function ContactPage() {
                 live chat feature. Most issues are resolved within minutes.
               </p>
               <a
-                href="https://4yaarwin.com/#/register?invitationCode=64747166955"
+                href="https://4yaarwin.tech/#/register?invitationCode=64747166955"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary px-6 py-2.5 rounded-xl text-sm block text-center"

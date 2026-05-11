@@ -2,13 +2,13 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import CtaButton from '@/components/ui/CtaButton';
 import Link from 'next/link';
 
-const REGISTER_URL = 'https://4yaarwin.com/#/register?invitationCode=64747166955';
+const REGISTER_URL = 'https://4yaarwin.tech/#/register?invitationCode=64747166955';
 
 export const metadata = {
   title: '4YaarWin Login – Access Your Gaming Account',
   description:
     'Login to your 4YaarWin account and start playing instantly. Fast, secure, and easy access to all your favorite games and winnings.',
-  alternates: { canonical: 'https://www.4yaarwin.com/login/' },
+  alternates: { canonical: 'https://www.4yaarwin.tech/login/' },
 };
 
 export default function LoginPage() {

@@ -11,7 +11,7 @@ export default function SchemaOrg() {
       contactType: 'customer support',
       email: 'support@4yaarwin.com',
     },
-    sameAs: ['https://4yaarwin.com'],
+    sameAs: ['https://4yaarwin.tech'],
   };
 
   const websiteSchema = {

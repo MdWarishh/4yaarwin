@@ -1,4 +1,4 @@
-const REGISTER_URL = 'https://4yaarwin.com/#/register?invitationCode=64747166955';
+const REGISTER_URL = 'https://4yaarwin.tech/#/register?invitationCode=64747166955';
 
 export default function CtaButton({ label = 'Play Now', variant = 'primary', size = 'md', className = '' }) {
   const sizeClass = {

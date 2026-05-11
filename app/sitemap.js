@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://www.4yaarwin.com';
+  const baseUrl = 'https://www.4yaarwin.tech';
 
   const routes = [
     { url: '/', changeFrequency: 'daily', priority: 1.0 },

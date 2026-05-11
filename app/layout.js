@@ -3,10 +3,13 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import SchemaOrg from '@/components/ui/SchemaOrg';
 
-const SITE_URL = 'https://www.4yaarwin.com';
+const SITE_URL = 'https://www.4yaarwin.tech';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
+    verification: {
+    google: "uK9xirD2drTt9K0qqT6AbZFBhh4BwIBReReq4G2bD88",
+  },
   title: {
     default: '4YaarWin Official – Login & Register | Play & Win Online',
     template: '%s | 4YaarWin Official',

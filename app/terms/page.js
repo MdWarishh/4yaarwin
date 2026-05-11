@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 export const metadata = {
   title: '4YaarWin Terms & Conditions – Rules of Use',
   description: 'Read the 4YaarWin Terms & Conditions. Understand the rules, responsibilities, and guidelines for using our online gaming platform.',
-  alternates: { canonical: 'https://www.4yaarwin.com/terms/' },
+  alternates: { canonical: 'https://www.4yaarwin.tech/terms/' },
 };
 
 const sections = [

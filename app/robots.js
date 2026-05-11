@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.4yaarwin.com/sitemap.xml',
+    sitemap: 'https://www.4yaarwin.tech/sitemap.xml',
   };
 }
