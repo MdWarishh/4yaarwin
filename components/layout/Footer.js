@@ -14,6 +14,7 @@ const footerLinks = {
     { href: '/privacy-policy', label: 'Privacy Policy' },
     { href: '/terms', label: 'Terms & Conditions' },
     { href: '/disclaimer', label: 'Disclaimer' },
+    { href: '/responsible-gaming', label: 'Responsible Gaming' },
   ],
 };
 

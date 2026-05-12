@@ -8,9 +8,10 @@ const REGISTER_URL = 'https://4yaarwin.tech/#/register?invitationCode=6474716695
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
-  { href: '/login', label: 'Login' },
-  { href: '/register', label: 'Register' },
+  // { href: '/login', label: 'Login' },
+  // { href: '/register', label: 'Register' },
   { href: '/contact', label: 'Contact' },
+   { href: '/responsible-gaming', label: 'Responsible Gaming' },
 ];
 
 export default function Header() {
