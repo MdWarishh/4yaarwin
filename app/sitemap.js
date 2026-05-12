@@ -10,6 +10,7 @@ export default function sitemap() {
     { url: '/privacy-policy', changeFrequency: 'yearly', priority: 0.4 },
     { url: '/terms', changeFrequency: 'yearly', priority: 0.4 },
     { url: '/disclaimer', changeFrequency: 'yearly', priority: 0.9 },
+    { url: '/responsible-gaming', changeFrequency: 'yearly', priority: 0.9 },
   ];
 
   return routes.map((route) => ({
