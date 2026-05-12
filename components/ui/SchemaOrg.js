@@ -4,7 +4,7 @@ export default function SchemaOrg() {
     '@type': 'Organization',
     name: '4YaarWin',
     url: 'https://www.4yaarwin.com',
-    logo: 'https://www.4yaarwin.com/logo.png',
+    logo: 'https://www.4yaarwin.com/logo.webp',
     description: 'Official 4YaarWin gaming platform – play, register, and win online.',
     contactPoint: {
       '@type': 'ContactPoint',

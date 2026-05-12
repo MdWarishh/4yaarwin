@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const REGISTER_URL = 'https://4yaarwin.tech/#/register?invitationCode=64747166955';
@@ -47,9 +48,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-btn-gradient flex items-center justify-center">
-                <span className="font-display font-bold text-brand-dark text-lg">4Y</span>
-              </div>
+              <Image
+               src="/logo.webp"
+               alt="4YaarWin Logo"
+               width={140}
+               height={40}
+               priority 
+               className="h-8 w-auto"
+             />
               <span className="font-display font-bold text-white text-xl">
                 4Yaar<span className="text-brand-green">Win</span>
               </span>

@@ -37,13 +37,14 @@ export default function Header() {
           {/* Logo */}
          <Link href="/" className="flex items-center gap-2 group">
   <div className="relative w-10 h-10">
-    <Image
-      src="/logo.png"
-      alt="4YaarWin Logo"
-      fill
-      className="object-contain rounded-xl"
-      priority
-    />
+   <Image
+  src="/logo.webp"
+  alt="4YaarWin Logo"
+  width={140}
+  height={40}
+  priority 
+  className="h-8 w-auto"
+/>
   </div>
 
   <div className="flex flex-col leading-tight">
