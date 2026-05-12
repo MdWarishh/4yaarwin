@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const REGISTER_URL = 'https://4yaarwin.tech/#/register?invitationCode=64747166955';
 
@@ -33,19 +34,26 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="relative">
-              <div className="w-10 h-10 rounded-xl bg-btn-gradient flex items-center justify-center shadow-glow-sm group-hover:shadow-glow-md transition-all">
-                <span className="font-display font-bold text-brand-dark text-lg leading-none">4Y</span>
-              </div>
-            </div>
-            <div className="flex flex-col leading-tight">
-              <span className="font-display font-bold text-white text-xl tracking-wide">
-                4Yaar<span className="text-brand-green">Win</span>
-              </span>
-              <span className="text-[10px] text-brand-green/60 tracking-widest uppercase font-body">Official Platform</span>
-            </div>
-          </Link>
+         <Link href="/" className="flex items-center gap-2 group">
+  <div className="relative w-10 h-10">
+    <Image
+      src="/logo.png"
+      alt="4YaarWin Logo"
+      fill
+      className="object-contain rounded-xl"
+      priority
+    />
+  </div>
+
+  <div className="flex flex-col leading-tight">
+    <span className="font-display font-bold text-white text-xl tracking-wide">
+      4Yaar<span className="text-brand-green">Win</span>
+    </span>
+    <span className="text-[10px] text-brand-green/60 tracking-widest uppercase font-body">
+      Official Platform
+    </span>
+  </div>
+</Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-1">

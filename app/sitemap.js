@@ -5,11 +5,11 @@ export default function sitemap() {
     { url: '/', changeFrequency: 'daily', priority: 1.0 },
     { url: '/login', changeFrequency: 'weekly', priority: 0.9 },
     { url: '/register', changeFrequency: 'weekly', priority: 0.9 },
-    { url: '/about', changeFrequency: 'monthly', priority: 0.7 },
-    { url: '/contact', changeFrequency: 'monthly', priority: 0.6 },
+    { url: '/about', changeFrequency: 'monthly', priority: 0.9 },
+    { url: '/contact', changeFrequency: 'monthly', priority: 0.9 },
     { url: '/privacy-policy', changeFrequency: 'yearly', priority: 0.4 },
     { url: '/terms', changeFrequency: 'yearly', priority: 0.4 },
-    { url: '/disclaimer', changeFrequency: 'yearly', priority: 0.4 },
+    { url: '/disclaimer', changeFrequency: 'yearly', priority: 0.9 },
   ];
 
   return routes.map((route) => ({
