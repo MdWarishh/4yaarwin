@@ -23,7 +23,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: `${SITE_URL}/og-image.png`,
+        url: `${SITE_URL}/logo.webp`,
         width: 1200,
         height: 630,
         alt: '4YaarWin Game – Play & Win Online',
@@ -34,7 +34,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: '4YaarWin Game – Play & Win Real Rewards',
     description: "India's most trusted online gaming platform. Register free!",
-    images: [`${SITE_URL}/og-image.png`],
+    images: [`${SITE_URL}/logo.webp`],
   },
 };
 
@@ -487,9 +487,9 @@ export default function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <CtaButton label="Register on YaarWin" size="md" />
-                <Link href="/about" className="btn-outline px-7 py-3 rounded-xl text-center">
-                  Learn More
-                </Link>
+                <Link href="/about" className="text-brand-green hover:underline font-medium">
+  Learn More About 4YaarWin
+</Link>
               </div>
             </div>
 
